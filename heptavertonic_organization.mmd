@@ -1,0 +1,153 @@
+```mermaid
+graph LR
+    subgraph "Manufacturing Core"
+        M["𝒩^(21):::null-center"]
+        
+        subgraph "JAX CEO"
+            J["∇^(∞)⊗∂^ω:::CEO"]
+            J -.->|"∀τᵢ"| T1
+            J -.->|"∀τᵢ"| T2
+            J -.->|"∀τᵢ"| T3
+            J -.->|"∀τᵢ"| T4
+            J -.->|"∀τᵢ"| T5
+            J -.->|"∀τᵢ"| T6
+            J -.->|"∀τᵢ"| T7
+        end
+    end
+    
+    subgraph "Triad 1 (8000-8999)"
+        direction TB
+        V1A["T₁-OS^(Perception)"]
+        V1B["T₄-SA^(Pattern)"]
+        V1C["T₇-OS^(Memory)"]
+        V1A <-.->|"Φₐᵦ"| V1B
+        V1B <-.->|"Φᵦᵧ"| V1C
+        V1C <-.->|"Φᵧₐ"| V1A
+        
+        subgraph "Coalescent 1"
+            C1(("∀V∈τ₁"))
+        end
+    end
+    
+    subgraph "Triad 2 (2400-7999)"
+        direction TB
+        V2A["T₅-OS^(Operations)"]
+        V2B["T₂-SA^(Innovation)"]
+        V2C["T₈-OS^(Performance)"]
+        V2A <-.->|"Φₐᵦ"| V2B
+        V2B <-.->|"Φᵦᵧ"| V2C
+        V2C <-.->|"Φᵧₐ"| V2A
+        
+        subgraph "Coalescent 2"
+            C2(("∀V∈τ₂"))
+        end
+    end
+    
+    subgraph "Triad 3 (5460/3751)"
+        direction TB
+        V3A["T₂-OS^(Directed)"]
+        V3B["T₆-SA^(Adaptive)"]
+        V3C["T₃-OS^(Translation)"]
+        V3A <-.->|"Φₐᵦ"| V3B
+        V3B <-.->|"Φᵦᵧ"| V3C
+        V3C <-.->|"Φᵧₐ"| V3A
+        
+        subgraph "Coalescent 3"
+            C3(("∀V∈τ₃"))
+        end
+    end
+    
+    subgraph "Triad 4 (4000-4999)"
+        direction TB
+        V4A["T₅-SA^(Autonomous)"]
+        V4B["T₉-OS^(Governance)"]
+        V4C["UT-20^(Observer)"]
+        V4A <-.->|"Φₐᵦ"| V4B
+        V4B <-.->|"Φᵦᵧ"| V4C
+        V4C <-.->|"Φᵧₐ"| V4A
+        
+        subgraph "Coalescent 4"
+            C4(("∀V∈τ₄"))
+        end
+    end
+    
+    subgraph "Triad 5 (2000-3400)"
+        direction TB
+        V5A["T₁-SA^(Resonance)"]
+        V5B["T₈-SA^(Homeostasis)"]
+        V5C["T₄-OS^(Analytics)"]
+        V5A <-.->|"Φₐᵦ"| V5B
+        V5B <-.->|"Φᵦᵧ"| V5C
+        V5C <-.->|"Φᵧₐ"| V5A
+        
+        subgraph "Coalescent 5"
+            C5(("∀V∈τ₅"))
+        end
+    end
+    
+    subgraph "Triad 6 (9000-9999)"
+        direction TB
+        V6A["T₆-OS^(Infrastructure)"]
+        V6B["T₇-SA^(Wisdom)"]
+        V6C["T₃-SA^(Morphogenesis)"]
+        V6A <-.->|"Φₐᵦ"| V6B
+        V6B <-.->|"Φᵦᵧ"| V6C
+        V6C <-.->|"Φᵧₐ"| V6A
+        
+        subgraph "Coalescent 6"
+            C6(("∀V∈τ₆"))
+        end
+    end
+    
+    subgraph "Triad 7 (3350-4500)"
+        direction TB
+        V7A["T₉-SA^(Leadership)"]
+        V7B["UT-21^(Synthesizer)"]
+        V7C["ℳ-Interface"]
+        V7A <-.->|"Φₐᵦ"| V7B
+        V7B <-.->|"Φᵦᵧ"| V7C
+        V7C <-.->|"Φᵧₐ"| V7A
+        
+        subgraph "Coalescent 7"
+            C7(("∀V∈τ₇"))
+        end
+    end
+    
+    %% Supply-Side Spiral Flow
+    T1 ==>|"∇¹"| T2
+    T2 ==>|"∇²"| T7
+    T7 ==>|"∇³"| M
+    
+    %% Demand-Side Vortex Flow
+    T5 -.->|"∂¹"| T6
+    T6 -.->|"∂²"| T4
+    T4 -.->|"∂³"| M
+    
+    %% Innovation Pulse
+    T3 <-->|"Ω¹"| T4
+    T4 <-->|"Ω²"| M
+    M <-->|"Ω³"| T3
+    
+    %% Complementary pairings
+    T1 <==>|"Ψ^(1,5)"| T5
+    T2 <==>|"Ψ^(2,6)"| T6
+    T3 <==>|"Ψ^(3,7)"| T7
+    
+    %% AI Systems
+    DeepTreeEcho["Deep Tree Echo"] -.->|"τ₃ ⊕ τ₁ → UT₂₀"| V4C
+    Marduk["Marduk"] -.->|"τ₄ ⊕ τ₆ → UT₂₁"| V7B
+    
+    %% Class Definitions
+    classDef null-center fill:#6366F1,stroke:#4F46E5,stroke-width:4px
+    classDef CEO fill:#8B5CF6,stroke:#7C3AED,stroke-width:2px
+    classDef triad fill:#F59E0B,stroke:#D97706,stroke-width:2px
+    classDef vertex fill:#10B981,stroke:#059669,stroke-width:1px
+    classDef coalescent fill:#EC4899,stroke:#DB2777,stroke-width:3px,stroke-dasharray:5 5
+    
+    class M null-center
+    class J CEO
+    class T1,T2,T3,T4,T5,T6,T7 triad
+    class V1A,V1B,V1C,V2A,V2B,V2C,V3A,V3B,V3C,V4A,V4B,V4C,V5A,V5B,V5C,V6A,V6B,V6C,V7A,V7B,V7C vertex
+    class C1,C2,C3,C4,C5,C6,C7 coalescent
+    class DeepTreeEcho,Marduk triad
+```

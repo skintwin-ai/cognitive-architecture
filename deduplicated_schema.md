@@ -1,0 +1,171 @@
+# Deduplicated Schema from Chart of Accounts
+
+## Asset Categories
+- **1000-1999**: Cash and Bank Accounts
+  - 1000/000: Cash on Hand
+  - Bank accounts (various)
+  - Petty cash accounts
+
+- **2000-2999**: Receivables and Income
+  - 2000/000: Sales
+  - 2100/000: Sales - Export
+  - 2200/000: Sales - Local
+  - 2300/000: Cost of Sales
+  - 2400/000: Purchases
+  - 2500/000: Purchases - Import
+  - 2600/000: Purchases - Local
+  - 2700/000: Discounts Received
+  - 2720/000: Monthly Rental
+  - 2730/000: Freight Costs - received
+  - 2730/000: Rental - Deposits
+  - 2735/000: Internet - Fibre Costs
+  - 2740/000: Insurance paid received back
+  - 2750/000: Interest Received
+  - 2780/000: Monthly Operational Costs - Pro Rata
+  - 2810/000: Packaging recovering fee
+  - 2900/000: Sundry Income
+
+## Expense Categories
+- **3000-3999**: Administrative and General Expenses
+  - 3000/000: Accounting Fees
+  - 3050/000: Advertising, Marketing & Promotions
+  - 3051/000: Trade Exhibitions
+  - 3110/000: Ad Valorem duty
+  - 3120/000: Annual Fees
+  - 3150/000: Bad Debts
+  - 3200/000: Bank Charges
+  - 3210/000: CIPC Expenses
+  - 3220/000: CIPC Fees
+  - 3255/000: Commissions paid
+  - 3260/000: Company CIPC / Registration fees
+  - 3300/000: Computer Expenses
+  - 3350/000: Consulting Fees
+  - 3351/000: Commissions - Division
+  - 3400/000: Courier & Postage
+  - 3450/000: Depreciation
+  - 3500/000: Directors Fee / Members Remuneration
+  - 3550/000: Discount Allowed
+  - 3650/000: Electricity & Water
+  - 3700/000: Entertainment Expenses
+  - 3745/000: Fibre costs
+  - 3751/000: Formulation Costs
+  - 3760/000: Freight Charges
+  - 3770/000: Forex Charges
+  - 3800/000: General Expenses
+  - 3800/030: General Expenses - Factory Consumables
+  - 3800/040: General Expenses - Any other
+  - 3849/000: Import duties
+  - 3850/000: Insurance
+  - 3851/000: Internet Cost
+  - 3900/000: Interest Paid
+  - 3910/000: LAB SERVICES MICRO TESTING
+
+- **4000-4999**: Operational Expenses
+  - 4000/000: Legal Fees
+  - 4050/000: Levies
+  - 4150/000: Motor Vehicle Expenses
+  - 4150/010: Motor Vehicle - Petrol & Oil
+  - 4150/020: Motor Vehicle - Repairs & Maint.
+  - 4150/030: Motor Vehicle - Insurance & Licence
+  - 4170/000: Postage Box Renewal
+  - 4185/000: Packaging recovery
+  - 4190/000: Packaging materials
+  - 4200/000: Printing & Stationery
+  - 4210/000: Pft/Loss on foreign exchange
+  - 4300/000: Rent Paid
+  - 4350/000: Repairs & Maintenance
+  - 4400/000: Salaries & Wages
+  - 4401/000: Salaries - UIF
+  - 4402/000: Salaries - Skills Development Levy
+  - 4403/000: Salaries - PAYE
+  - 4410/000: Security
+  - 4450/000: Training Costs
+  - 4500/000: Staff Welfare
+  - 4600/000: Telephone & Fax
+  - 4601/000: Telephone -Cellular
+  - 4645/000: Trademark renewals
+  - 4650/000: Travel & Accommodation
+  - 4655/000: Unallocated payments
+  - 4700/000: Workmen's Compensation
+  - 4800/000: Normal Taxation
+  - 4830/000: Provisional tax
+
+## Equity and Capital Categories
+- **5000-5999**: Equity, Capital and Loans
+  - 5100/000: Share Capital / Members Contribution
+  - 5200/000: Retained Income / (Accumulated Loss)
+  - 5400/000: Share Holders / Directors / Members Loan
+  - 5400/100: Members Loan Account
+  - 5400/200: Members Loan - Deposit Account
+  - 5460/000: Research/Innovation - Loan Account
+  - 5461/000: Directors - Expenses Loan Account
+  - 5462/000: Members - Expenses Loan Account
+  - 5464/000: Distribution - Loan account
+  - 5466/000: Production/Logistics - Loan Account
+  - 5467/000: Operation/Logistics - Loan Account
+  - 5468/000: Distribution/B2B Wholesale - Loan Acc
+
+## Fixed Assets
+- **6000-6999**: Fixed Assets
+  - 6100/000: Land & Buildings - Net Value
+  - 6100/010: Land & Buildings - @ Cost
+  - 6100/030: Land & Buildings - Improvements
+  - 6150/000: Plant & Machinery - Net Value
+  - 6150/010: Plant & Machinery - @ Cost
+  - 6150/020: Plant & Machinery - Accum Depre
+  - 6200/000: Motor Vehicles - Net Value
+  - 6200/010: Motor Vehicles - @ Cost
+  - 6200/020: Motor Vehicles - Accum Depre
+  - 6250/000: Computer Equipment - Net Value
+  - 6300/000: Office Equipment - Net Value
+  - 6350/000: Furniture & Fittings - Net value
+  - 6350/010: Furniture & Fittings - @ Cost
+  - 6350/020: Furniture & Fittings - Accum Depre
+  - 6600/000: Trade Mark/Other Fixed Assets - Net Value
+  - 6600/010: Other Fixed Assets - @ Cost
+  - 6600/020: Other Fixed Assets - Accum Depre
+
+## Inventory and Current Assets
+- **7000-7999**: Inventory
+  - 7500/000: Inventory Control - Other
+  - 7540/000: Inventory Control - Raw Materials
+  - 7550/000: Inventory Control - Leaflets & Labels
+  - 7600/000: Inventory Control - Empty Tubes
+  - 7650/000: Inventory Control - Empty Containers
+  - 7700/000: Inventory Control - Finished Goods
+  - 7750/000: Inventory Control - Boxes
+
+## Accounts Receivable
+- **8000-8999**: Accounts Receivable and Cash
+  - 8000/000: Customer Control Account
+  - 8001/000: Sundry Customers
+  - 8010/000: Unknown deposit/Unallocated income
+  - 8050/000: Less: Provision For Doubtful Debts
+  - 8100/000: Provision for Bad Debts
+  - 8200/000: Sundry Customers
+  - 8400/000: Bank
+  - 8410/000: Petty Cash
+  - 8411/000: Offices Main Account/Office Petty Cash
+  - 8412/000: Office Savings Account/Office Main Account
+  - 8413/000: Office Savings Account
+  - 8420/000: Bank Savings Account/Bank - Savings (Money on Call)
+  - 8440/000: Bank CFC USD
+  - 8450/000: Bank CFC EURO
+  - 8460/000: Bank CFC BRITISH POUND/Bank - EURO
+  - 8465/000: Bank CFC British Pound No 2
+  - 8470/000: Bank - CFC Account - US $
+  - 8480/000: Bank - CFC Account - €
+  - 8490/000: Bank - CFC Account - £
+  - 8495/000: Bank CFC Account - GBP No 2
+  - 8499/000: Inter Bank Transfer Account
+
+## Accounts Payable and Control
+- **9000-9999**: Accounts Payable and Control Accounts
+  - 9000/000: Supplier Control Account
+  - 9200/000: Sundry Suppliers
+  - 9200/010: Accounting / Audit Fee Accrual
+  - 9300/000: Taxation Payable
+  - 9500/000: Vat / Tax Control Account
+  - 9510/000: Vat / Tax Provision Account
+  - 9950/000: Opening Stock Suspense Account
+  - 9990/000: Opening Balance / Suspense Account
