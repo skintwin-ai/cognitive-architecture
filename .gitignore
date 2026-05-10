@@ -37,3 +37,9 @@ yarn-error.log*
 
 # Archives (keep originals)
 # project.zip is kept as reference
+
+# TypeScript build info
+*.tsbuildinfo
+
+# Python test cache
+.pytest_cache/
