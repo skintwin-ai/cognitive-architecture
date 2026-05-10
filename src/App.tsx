@@ -1,11 +1,11 @@
-import './App.css';
 import HeptavertonicVisualization from './components/HeptavertonicVisualization';
+import './App.css';
 
 function App() {
   return (
-    <div className="App">
+    <main className="app-shell">
       <HeptavertonicVisualization />
-    </div>
+    </main>
   );
 }
 
